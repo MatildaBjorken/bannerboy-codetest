@@ -1,0 +1,109 @@
+/* car variation style */
+
+.car-variation-wrapper {
+    transform: scale(0.5);
+}
+
+.car-variation {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -16px)
+}
+
+.color-picker {
+    z-index: 9;
+    right: 92px;
+    top: 14px;
+    position: absolute;
+    display: flex;
+    width: 55px;
+}
+
+.tagline-color {
+    position: absolute;
+}
+
+.car-colors img {
+    opacity: 0;
+}
+
+.color-choise {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.color-choise .line {
+    opacity: 0;
+}
+
+.show-border .line {
+    opacity: 1;
+}
+
+.active-car-color {
+    opacity: 1;
+}
+
+.not-active-car-color {
+    opacity: 0 !important;
+}
+
+/* white outline */
+
+.l1,
+.l2,
+.l3,
+.l4 {
+    position: absolute;
+    background: #fff;
+    pointer-events: none;
+}
+
+.l1 {
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 1px;
+}
+
+.l2 {
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+}
+
+.l3 {
+    right: 0;
+    top: 0;
+    height: 0;
+    width: 1px;
+
+}
+
+.l4 {
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 1px;
+}
+
+/* color choise style */
+
+.choise-blue {
+    background: linear-gradient(0deg, rgba(7, 162, 212, 1) 0%, rgba(7, 162, 212, 1) 50%, rgba(46, 181, 224, 1) 50%, rgba(46, 181, 224, 1) 70%, rgba(7, 162, 212, 1) 100%);
+    left: 0;
+}
+
+.choise-yellow {
+    background: linear-gradient(0deg, rgba(221, 134, 1, 1) 0%, rgba(221, 134, 1, 1) 50%, rgba(226, 157, 51, 1) 50%, rgba(221, 134, 1, 1) 100%);
+    left: 50%;
+}
+
+.choise-red {
+    background: linear-gradient(0deg, rgba(147, 18, 27, 1) 0%, rgba(147, 18, 27, 1) 50%, rgba(171, 49, 58, 1) 50%, rgba(147, 18, 27, 1) 100%);
+    left: 100%;
+}

@@ -1,0 +1,77 @@
+/* first car styling */
+
+.car-wrapper {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    transform: scale(0.5);
+}
+
+.car-side {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.wheel-spin-back {
+    position: absolute;
+    bottom: 117px;
+    right: 85px;
+    z-index: 1;
+}
+
+.wheel-spin-front {
+    position: absolute;
+    right: 431px;
+    bottom: 116px;
+    z-index: 1;
+}
+
+.wheel-stop {
+    opacity: 0;
+}
+
+/* carlights style */
+
+.lights {
+    mix-blend-mode: screen !important;
+    transform: scale(0.5);
+}
+
+.lights-front,
+.lights-back {
+    opacity: 0;
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    left: -150px;
+    mix-blend-mode: screen
+}
+
+.shadows {
+    position: absolute;
+    bottom: 80px;
+    right: 0px;
+}
+
+/* tagline style */
+
+.tagline-wrapper-first .tagline-first,
+.tagline-wrapper-second .tagline-first {
+    position: absolute;
+    top: 20px;
+    left: 18px;
+}
+
+.tagline-wrapper-first .tagline-second,
+.tagline-wrapper-second .tagline-second {
+    position: absolute;
+    top: 43px;
+    left: 20px;
+}
+
+.tagline-first path,
+.tagline-second path {
+    transform: scale(0.5);
+}

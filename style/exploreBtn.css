@@ -1,0 +1,37 @@
+/* explore button style */
+
+.explore-btn-wrapper {
+    z-index: 9;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.rectangle-btn {
+    position: relative;
+    background-color: black;
+    width: 143.5px;
+    height: 30.5px;
+    overflow: hidden;
+}
+
+.explore-btn {
+    transform: scale(0.5) translate(5px, -50%);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.arrow-first {
+    transform: translate(-5px, 0%);
+}
+
+.explore-btn-text {
+    height: 24px;
+    width: 210px;
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    transform: scale(0.5) translate(-100%, -100%);
+}
